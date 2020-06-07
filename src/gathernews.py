@@ -1,5 +1,6 @@
+# find artices online about animtaion
 def  articles(word):
-	c
+	
 
 
 keyinput = keyinput("Enter a word:")
