@@ -1,5 +1,6 @@
-# find artices online about animtaion.
-#########
+#Description: Scrape and Summarize articles
+ 	#find artices online about animtaion.
+
 def  articles(word):
 	
 
