@@ -1,4 +1,3 @@
-
 #Description: Scrape and Summarize articles
  	#find artices online about animtaion.
 #pip install nltk 
