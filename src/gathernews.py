@@ -35,7 +35,7 @@ article.text
 #article.summary
 
 #prints out the output to be shown in the code when gathernews.py is called upon
-#print(article.publish_date)
-#print(article.authors)
+print(article.publish_date)
+print(article.top_image)
 print(article.authors)
 
