@@ -6,11 +6,13 @@
 import nltk
 from newspaper import Article
 
-url = 'https://www.the-flying-animator.com/pixilation.html'
-flying = Article(url)
+url = 'https://www.newyorker.com/magazine/2019/12/30/the-surprise-and-wonder-of-early-animation'
+
+new = Article(url)
 
 
 url = 'https://theconversation.com/tom-and-jerry-why-theyre-a-cat-and-mouse-double-act-for-the-ages-91762'
+
 con = Article(url)
 
 
@@ -23,16 +25,16 @@ article = Article(url)
 # download to get the article
 article.download()
 con.download()
-flying.download()
+new.download()
 
 article.parse()
 con.parse()
-flying.parse()
+new.parse()
 
 nltk.download('punkt')
 article.nlp()
 con.nlp()
-flying.nlp()
+new.nlp()
 
 article.html
 # Get the authors who wrote the article
@@ -64,7 +66,9 @@ print(con.authors)
 print(con.publish_date)
 print(con.summary)
 
-flying.authurs
+new.authors
 
-print(flying.authors)
+print(new.authors)
+print(new.publish_date)
+print(new.summary)
 
