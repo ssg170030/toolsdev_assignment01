@@ -41,6 +41,7 @@ new.nlp()
 
 
 #From Cartoon brew website
+cartoon.title
 # Get the authors who wrote the article
 cartoon.authors
 # get publish date
@@ -50,7 +51,7 @@ cartoon.top_image
 
 
 #From Cartoon brew website
-
+print(cartoon.title)
 print(cartoon.authors) # Amid Amidi, Alex Dudok De Wit
 print(cartoon.publish_date) #04-19-2018
 print(cartoon.summary)
@@ -58,17 +59,21 @@ print(cartoon.summary)
 
 
 #From The Conversation
+con.title
 con.authors
 con.publish_date
 
+print(con.title)
 print(con.authors) # Phillip Vaughan
 print(con.publish_date) #03-14-2018
 print(con.summary)
 
 #From the NewYorker
+new.title
 new.authors
 new.publish_date
 
+print(new.title)
 print(new.authors) #Richard Brod
 print(new.publish_date) #12-30-2019
 print(new.summary)
