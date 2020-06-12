@@ -1,6 +1,6 @@
-# Description: Scrape and Summarize articles
+# Description: Scrape and Summarize Animation articles
 # find articles online about animation.
-# Get the article from Cartoon Brew
+# articles from Cartoon Brew, NewYorker, and The Conversation
 
 
 import nltk
@@ -26,7 +26,7 @@ article = Article(url)
 article.download()
 con.download()
 new.download()
-
+#Then parse each article
 article.parse()
 con.parse()
 new.parse()
@@ -36,7 +36,8 @@ article.nlp()
 con.nlp()
 new.nlp()
 
-article.html
+
+#From Cartoon brew website
 # Get the authors who wrote the article
 article.authors
 # get publish date
@@ -45,20 +46,13 @@ article.publish_date
 article.top_image
 
 
-
-
-
-
-
-# collect the text
-
-# prints out the output to be shown in the code when gathernews.py is called upon
-
-
+#From Cartoon brew website
 print(article.authors)
 print(article.publish_date)
 print(article.summary)
 
+
+#From The Conversation
 con.authors
 con.publish_date
 
@@ -67,6 +61,7 @@ print(con.publish_date)
 print(con.summary)
 
 new.authors
+new.publish_date
 
 print(new.authors)
 print(new.publish_date)
